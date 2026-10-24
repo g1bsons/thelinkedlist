@@ -1,0 +1,11 @@
+{
+  "name": "thelinkedlist",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A TypeScript full-stack app that turns a networking method into a weekly routine: rank target employers, organize LinkedIn connections, and run timed outreach sessions.",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
+
