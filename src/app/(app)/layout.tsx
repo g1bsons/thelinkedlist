@@ -16,6 +16,9 @@ export default async function AppLayout({ children }: { children: React.ReactNod
           <Link href="/contacts" className="hover:underline">
             Contacts
           </Link>
+             <Link href="/import" className="hover:underline">
+                Import
+             </Link>
         </nav>
         <form
           action={async () => {
