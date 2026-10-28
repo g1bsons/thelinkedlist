@@ -1,0 +1,25 @@
+{
+  "node": {
+    "00dfbe6fb332e92285d5fa73f39bbe97cbb4bbc0ca": {
+      "workers": {
+        "app/(app)/import/page": {
+          "moduleId": "[project]/.next-internal/server/app/(app)/import/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/(app)/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/(app)/import/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        }
+      },
+      "exportedName": "$$RSC_SERVER_ACTION_0",
+      "filename": "src/app/(app)/layout.tsx"
+    },
+    "403b8dc58dced5f349b91814984303fa7c4ccd0d33": {
+      "workers": {
+        "app/(app)/import/page": {
+          "moduleId": "[project]/.next-internal/server/app/(app)/import/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/(app)/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/(app)/import/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        }
+      },
+      "exportedName": "importConnections",
+      "filename": "src/app/(app)/import/actions.ts"
+    }
+  },
+  "edge": {}
+}
