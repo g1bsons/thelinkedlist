@@ -1,0 +1,45 @@
+{
+  "node": {
+    "00dfbe6fb332e92285d5fa73f39bbe97cbb4bbc0ca": {
+      "workers": {
+        "app/(app)/companies/page": {
+          "moduleId": "[project]/.next-internal/server/app/(app)/companies/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/(app)/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/(app)/companies/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        }
+      },
+      "exportedName": "$$RSC_SERVER_ACTION_0",
+      "filename": "src/app/(app)/layout.tsx"
+    },
+    "402f2a8e334c94a3416f2ba4963bca15f5a61740fb": {
+      "workers": {
+        "app/(app)/companies/page": {
+          "moduleId": "[project]/.next-internal/server/app/(app)/companies/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/(app)/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/(app)/companies/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        }
+      },
+      "exportedName": "deleteCompany",
+      "filename": "src/app/(app)/companies/actions.ts"
+    },
+    "4030152c0fddad4f99d6a6738917ef7d029f59063b": {
+      "workers": {
+        "app/(app)/companies/page": {
+          "moduleId": "[project]/.next-internal/server/app/(app)/companies/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/(app)/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/(app)/companies/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        }
+      },
+      "exportedName": "updateCompanyTier",
+      "filename": "src/app/(app)/companies/actions.ts"
+    },
+    "40d941f7ca1f10670bfd91c946518cc30af76bb011": {
+      "workers": {
+        "app/(app)/companies/page": {
+          "moduleId": "[project]/.next-internal/server/app/(app)/companies/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/(app)/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/(app)/companies/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        }
+      },
+      "exportedName": "createCompany",
+      "filename": "src/app/(app)/companies/actions.ts"
+    }
+  },
+  "edge": {}
+}

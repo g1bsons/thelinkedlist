@@ -1,0 +1,45 @@
+{
+  "node": {
+    "00dfbe6fb332e92285d5fa73f39bbe97cbb4bbc0ca": {
+      "workers": {
+        "app/(app)/contacts/page": {
+          "moduleId": "[project]/.next-internal/server/app/(app)/contacts/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/(app)/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/(app)/contacts/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        }
+      },
+      "exportedName": "$$RSC_SERVER_ACTION_0",
+      "filename": "src/app/(app)/layout.tsx"
+    },
+    "404fd357b9a955336da2494e8ac69e29e9f89316c2": {
+      "workers": {
+        "app/(app)/contacts/page": {
+          "moduleId": "[project]/.next-internal/server/app/(app)/contacts/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/(app)/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/(app)/contacts/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        }
+      },
+      "exportedName": "createContact",
+      "filename": "src/app/(app)/contacts/actions.ts"
+    },
+    "40a51cf6457bb73e1bc9d10e33890ff1780ffc5c5c": {
+      "workers": {
+        "app/(app)/contacts/page": {
+          "moduleId": "[project]/.next-internal/server/app/(app)/contacts/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/(app)/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/(app)/contacts/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        }
+      },
+      "exportedName": "updateContactStage",
+      "filename": "src/app/(app)/contacts/actions.ts"
+    },
+    "40d9bd8c2fdb197a785ee96daca57782edc72949e2": {
+      "workers": {
+        "app/(app)/contacts/page": {
+          "moduleId": "[project]/.next-internal/server/app/(app)/contacts/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/(app)/layout.tsx [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/app/(app)/contacts/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true
+        }
+      },
+      "exportedName": "deleteContact",
+      "filename": "src/app/(app)/contacts/actions.ts"
+    }
+  },
+  "edge": {}
+}
