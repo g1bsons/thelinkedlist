@@ -1,0 +1,26 @@
+// TypeScript accepts comments here (JSONC); package.json and package-lock.json do NOT.
+// See docs/10-commented-code-guide.md for the strict-JSON settings we cannot annotate inline.
+{
+  "compilerOptions": {
+    // Check against modern JS/browser APIs; Vite is responsible for producing the actual bundle.
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    // Resolve imports the way a bundler does rather than assuming Node executes browser modules directly.
+    "moduleResolution": "Bundler",
+    // Use React's automatic JSX runtime so each TSX file does not need a default React import.
+    "jsx": "react-jsx",
+    // Enable stricter type checks, including null handling and implicit-any detection.
+    "strict": true,
+    // tsc checks only; avoid a second generated JS tree alongside Vite's dist output.
+    "noEmit": true,
+    // Skip checking dependency declaration internals, not our own application files.
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
+    // Make Vite's browser/tooling and Node-based config/test declarations available.
+    "types": ["vite/client", "node"]
+  },
+  // Check application code, test code, and root-level TypeScript configuration files.
+  "include": ["src", "tests", "*.ts"]
+}
